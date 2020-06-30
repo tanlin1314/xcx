@@ -1,0 +1,23 @@
+<!--pages/received/received.wxml-->
+<!-- actors: "王学兵,潘斌龙"
+director: "瑞迪玛·潘迪特"
+id: 1
+image: "http://129.211.169.131:3710/movies/ydqy.jpg"
+name: "印度奇游"
+point: "9.1"
+time: 98
+type: "喜剧/爱情"
+wannas: 140521 -->
+<navigator url="/pages/details/details?id={{item.id}}" wx:for="{{list}}" wx:key="name">
+<view  class="film">
+  <view>
+  <image src="{{item.image}}" class="dytp"></image>
+  </view>
+  <view>
+    <text>{{item.name}}</text>
+    <view>{{item.actors}}</view>
+    <view>导演：{{item.director}}</view>
+  </view>
+  <view>{{item.point}}</view>
+</view>
+</navigator>

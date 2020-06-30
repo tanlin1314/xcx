@@ -1,0 +1,5 @@
+
+<view wx:for="{{list}}" wx:key="id">
+<image src="http://127.0.0.1:5000/upload/imgs/goods_img/{{item.imgUrl}}"></image>
+<text>{{item.name}}</text>
+</view>

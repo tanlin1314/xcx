@@ -1,0 +1,16 @@
+.dy{
+  padding: 20px;
+}
+.db{
+  font-size: 24px;
+}
+.tu{
+  width: 100%;
+}
+.btn-wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding:15px;
+  background-color: #f2f2f2;
+  margin-top:20rpx;
+}

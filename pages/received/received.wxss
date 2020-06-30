@@ -1,0 +1,10 @@
+/* pages/received/received.wxss */
+.dytp{
+  width: 90px;
+  height: 100px;
+}
+.film{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}

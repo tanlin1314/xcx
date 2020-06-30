@@ -1,0 +1,21 @@
+<!--pages/details/details.wxml-->
+      <!-- // actors: "王学兵,潘斌龙"
+      // director: "瑞迪玛·潘迪特"
+      // evaluates: 51002
+      // image: "http://129.211.169.131:3710/movies/ydqy.jpg"
+      // info: "讲述了一群性格迥异个性鲜明的河南人，带着自己的梦想来到印度，却不料陷入了危险的境地，几经磨难疲于逃命，在逃亡过程中获得了对于生命、自我及爱情的再认识，也从帮助他们的淳淳朴善良印度乡民身上得到了对于生活的启迪。"
+      // intensity: 85
+      // name: "印度奇游"
+      // point: "9.1"
+      // time: 98
+      // type: "喜剧/爱情"
+      // wannas: 140521 -->
+<view>
+    <image src="{{list.image}}"></image>
+    <view>{{list.name}}</view>
+    <view>评分：{{list.point}}</view>
+    <view>导演：{{list.director}}</view>
+    <view>主演：{{list.actors}}</view>
+    <view>简介：{{list.info}}</view>
+</view>
+

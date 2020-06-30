@@ -1,0 +1,26 @@
+<!--pages/home/home.wxml-->
+<view>
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular class="body-pic">
+        <block wx:for="{{background}}" wx:key="*this">
+         <swiper-item>
+         <image src="{{item}}" mode="scaleToFill" class="tu"></image>
+         </swiper-item>
+        </block>
+      </swiper>
+</view>
+
+<!-- 豆瓣部电影 -->
+
+<view class="dy">
+<text class="db">豆瓣电影</text>
+<view>源码出品，必属精品</view>
+</view>
+
+<!-- 即将上映 -->
+<navigator url="/pages/received/received?url={{item.url}}"  wx:for="{{list}}" wx:key="id">
+<view class="btn-wrapper" bindtap="goToList" >
+    <view>{{item.name}}</view>
+    <view>></view>
+</view>
+</navigator>
+

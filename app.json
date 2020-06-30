@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/xialia/xialia",
+    "pages/home/home",
+    "pages/received/received",
+    "pages/details/details"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
